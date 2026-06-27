@@ -20,51 +20,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* -- TOP NAV -- */
-#topnav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
-  padding: 0 2rem;
-}
-
-.nav-inner {
-  max-width: 960px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  height: 4rem;
-  gap: 2rem;
-}
-
-.nav-name {
-  font-weight: 600;
-  color: #374151;
-  font-size: 1rem;
-  white-space: nowrap;
-}
-
-.nav-links {
-  display: flex;
-  gap: 1.75rem;
-  list-style: none;
-  margin-left: auto;
-}
-
-.nav-links a {
-  color: #6b7280;
-  text-decoration: none;
-  font-size: 0.875rem;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-.nav-links a:hover {
-  color: var(--accent);
-}
-
 /* -- HERO -- */
 #hero {
   background-color: var(--bg-main);
@@ -159,7 +114,6 @@ section > p { margin-bottom: 2rem; }
 #contact > p {
   color: #6b7280;
   font-size: 0.95rem;
-  margin-bottom: 5rem;
 }
 
 /* -- CV STYLES -- */
