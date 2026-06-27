@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Site</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- TOP NAV -->
+  <nav id="topnav">
+    <div class="nav-inner">
+      <span class="nav-name">Yasamin Klingler</span>
+      <ul class="social-icons">
+        <li><a href="https://github.com/yasamin-klingler" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/klingler-yasamin/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=tbwmhG4AAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main id="content">
+    <section id="hero">
+      <div class="hero-inner">
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQGjLk9K38_HBw/profile-displayphoto-shrink_800_800/B4EZd9AYGcHcAc-/0/1750148940727?e=1784160000&v=beta&t=gvuIsYqfFAazDrMFYBLojuLi38E32PSJbzSJe2CZaEs" alt="My Avatar" class="avatar">
+        <div class="hero-text">
+          <h1>Yasamin Klingler</h1>
+          <p>I am a software engineer. My work is mainly focused on processing images at scale. From moderating images in various domains
+            (NSFW filtering, quality and aesthetics validation, ai generated detection) to building image ranking
+            and recommendation systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV / EXPERIENCE SECTION -->
+    <section id="cv">
+      <h2>Experience</h2>
+
+      <article class="cv-item">
+        <div class="cv-meta">2021 &mdash; Present</div>
+        <div class="cv-details">
+          <h3>Senior Software Engineer &middot; GetYourGuide</h3>
+          <h4>Image &amp; Video Platform</h4>
+          <div class="cv-tags">
+            <span class="cv-tag">Python</span>
+            <span class="cv-tag">PyTorch</span>
+            <span class="cv-tag">Spark</span>
+            <span class="cv-tag">Java</span>
+            <span class="cv-tag">Postgres</span>
+            <span class="cv-tag">Kafka</span>
+            <span class="cv-tag">Kubernetes</span>
+            <span class="cv-tag">AWS</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="cv-item">
+        <div class="cv-meta">2019 &mdash; 2021</div>
+        <div class="cv-details">
+          <h3>Research Assistant &middot; ZHAW</h3>
+          <h4>Applied Machine Learning</h4>
+          <ul>
+            <li>Developed next-product-to-purchase models for insurance companies using deep learning and rule-based systems</li>
+          </ul>
+          <div class="cv-tags">
+            <span class="cv-tag">Python</span>
+            <span class="cv-tag">TensorFlow</span>
+            <span class="cv-tag">Recommender Systems</span>
+            <span class="cv-tag">Deep Learning</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- PORTFOLIO / PICTURES SECTION -->
+    <section id="portfolio">
+      <h2>Recent Work</h2>
+      <p>A few snapshots from projects I have worked on recently.</p>
+      
+      <div class="portfolio-grid">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Laptop code">
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Code on screen">
+      </div>
+    </section>
+
+    <!-- BLOG SECTION -->
+    <section id="blog">
+      <h2>Latest Writing</h2>
+      
+      <div class="blog-grid">
+        <article class="blog-card">
+          <a href="https://www.getyourguide.careers/posts/the-good-the-bad-and-the-blurry-replacing-intuition-with-data-in-visual-selection-at-getyourguide-2" class="blog-card-image-link">
+            <img src="https://cdn.prod.website-files.com/686a7507fff14c231dc1e2bf/69318e49a79b823e45f0c997_LowRes_GetYourGuideHeadshotSession13Nov25-72.webp" alt="Visual selection" class="blog-card-img">
+          </a>
+          <div class="blog-card-body">
+            <span class="date">Dec 04, 2025</span>
+            <h3><a href="https://www.getyourguide.careers/posts/the-good-the-bad-and-the-blurry-replacing-intuition-with-data-in-visual-selection-at-getyourguide-2">The good, the bad, and the blurry: replacing intuition with data in visual selection at GetYourGuide</a></h3>
+            <p>Discover how GetYourGuide leverages AI-powered image ranking to boost traveler trust and engagement. Learn how data-driven models assess aesthetics, quality, and relevance to display high-impact visuals, enhance user experience, and drive bookings across our global travel marketplace.</p>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <a href="https://www.getyourguide.careers/posts/how-we-use-ai-to-optimize-travel-images" class="blog-card-image-link">
+            <img src="https://cdn.prod.website-files.com/686a7507fff14c231dc1e2bf/6873831b403ef4a65e3bb421_65ae4ee8327bda0561903ae9_inside-getyourguide.avif" alt="Machine learning" class="blog-card-img">
+          </a>
+          <div class="blog-card-body">
+            <span class="date">Jan 17, 2024</span>
+            <h3><a href="https://www.getyourguide.careers/posts/how-we-use-ai-to-optimize-travel-images">How We Use AI to Optimize Travel Images</a></h3>
+            <p>Discover how GetYourGuide tackles the complex task of managing and optimizing millions of images using AI across various platforms.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <p>Have a project in mind or just want to chat? Send me a message below!</p>
+      
+      <div class="contact-split">
+        <!-- The Contact Form -->
+        <!-- Replace YOUR_FORM_ID with your Formspree ID -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="field-group">
+            <div class="field half">
+              <input type="text" name="name" id="name" placeholder="Name" required>
+            </div>
+            <div class="field half">
+              <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+          </div>
+          <div class="field">
+            <textarea name="message" id="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <button type="submit" class="button solid">Send Message</button>
+        </form>
+
+        <!-- The Contact Details -->
+        <div class="contact-info">
+          <ul>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:yasamin.klingler@gmail.com">yasamin.klingler@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>4600 Olten, Switzerland</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
