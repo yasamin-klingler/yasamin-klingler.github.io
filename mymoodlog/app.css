@@ -17,5 +17,4 @@
 .app-page nav a + a::before { content: "·"; color: #d1d5db; margin: 0 0.6rem; }
 .app-page footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid #e5e7eb; font-size: 0.85rem; color: #9ca3af; }
 @media (max-width: 768px) { .app-page { padding: 2rem 1.5rem 3rem; } }
-.app-page .icon { width: 72px; height: 72px; border-radius: 18px; display: block; margin-bottom: 1.2rem; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
-.app-page header .icon-small { width: 40px; height: 40px; border-radius: 10px; margin-bottom: 0.9rem; }
+.app-page .icon { width: 40px; height: 40px; border-radius: 10px; display: block; margin-bottom: 0.9rem; box-shadow: 0 1px 6px rgba(0,0,0,0.08); }
