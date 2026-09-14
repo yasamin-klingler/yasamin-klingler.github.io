@@ -369,6 +369,7 @@ textarea { margin-bottom: 1rem; resize: vertical; }
   .cv-meta { margin-bottom: 0.5rem; width: 100%; }
 
   .portfolio-grid { grid-template-columns: 1fr; }
+  .blog-grid { grid-template-columns: 1fr; }
 
   .contact-split { flex-direction: column; gap: 2.5rem; }
   .field-group { flex-direction: column; }
